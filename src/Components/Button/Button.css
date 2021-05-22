@@ -1,0 +1,29 @@
+.numpad-left-button, .numpad-right-button {
+  color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.numpad-left-button:hover {
+  cursor: pointer;
+  background-color: #808080;
+}
+
+.numpad-right-button:hover {
+  cursor: pointer;
+  background-color: #8FBC8F;
+}
+
+@media (max-width: 392px) {
+  .numpad-left-button, .numpad-right-button {
+    padding: 1.5rem;
+  }
+}
+
+@media(max-height: 540px) {
+  .numpad-left-button, .numpad-right-button {
+    padding: 1rem;
+  }
+}

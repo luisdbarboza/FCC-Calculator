@@ -1,0 +1,11 @@
+#display {
+  grid-area: display;
+  background-color: #FFF;
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem;
+  color: #3CB371;
+  font-size: 2rem;
+  font-weight: 600;
+  height: 2rem;
+}
